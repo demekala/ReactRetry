@@ -1,0 +1,10 @@
+.sidebarRightContainer {
+  margin: 80px;
+}
+
+.box {
+  background-color: white;
+  border-radius: 5px;
+  width: 250px;
+  height: 150px;
+}

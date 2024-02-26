@@ -1,0 +1,83 @@
+.sidebarContainer {
+  background-color: white;
+  height: 100vh;
+  width: 200px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  margin-top: 40px;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+ul li:first-child {
+  list-style-image: url("../../Assets/HomePageLogo.png");
+}
+
+ul li:nth-child(2) {
+  list-style-image: url("../../Assets/ProfilePageLogo.png");
+}
+
+ul li:nth-child(3) {
+  list-style-image: url("../../Assets/GroupsPageLogo.png");
+}
+
+ul li:nth-child(4) {
+  list-style-image: url("../../Assets/NotificationsPageLogo.png");
+}
+
+ul li:nth-child(5) {
+  list-style-image: url("../../Assets/DashboardPageLogo.png");
+}
+
+ul li:nth-child(6) {
+  list-style-image: url("../../Assets/SettingsLogo.png");
+  margin-top: 200%;
+}
+
+.profile img {
+  border-radius: 50%;
+  border: 2px solid aqua;
+  width: 50px;
+  height: 50px;
+}
+
+.profileInfo {
+  width: 150px;
+  font-size: smaller;
+  margin-left: 5px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+.search input {
+  width: 100px;
+  border-radius: 10px;
+}
+
+.search img:hover {
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: #e3ecff;
+}
